@@ -236,42 +236,42 @@ La función unicamente recibirá como parámetro "Piedra", "Papel" o "Tijeras", 
 
 /* 
 function game(p1,p2){
-    if(p1 == "piedra"){
-        if(p2 == "piedra"){
-            return "empate";
+    if(p1 == "Piedra"){
+        if(p2 == "Piedra"){
+            return "Empate";
         }
-        else if(p2 == "papel"){
+        else if(p2 == "Papel"){
             return "J2";
         }
-        else if(p2 == "tijeras"){
-            return "J1";    
-        }
-    }
-    else if(p1 == "papel"){
-        if(p2 == "piedra"){
+        else if(p2 == "Tijeras"){
             return "J1";
         }
-        else if(p2 == "papel"){
-            return "empate";
+    }
+    else if(p1 == "Papel"){
+        if(p2 == "Piedra"){
+            return "J1";
         }
-        else if(p2 == "tijeras"){
+        else if(p2 == "Papel"){
+            return "Empate";
+        }
+        else if(p2 == "Tijeras"){
             return "J2";
         }
     }
-    else if(p1 == "tijeras"){
-        if(p2 == "piedra"){
+    else if(p1 == "Tijeras"){
+        if(p2 == "Piedra"){
             return "J2";
         }
-        else if(p2 == "papel"){
+        else if(p2 == "Papel"){
             return "J1";
         }
-        else if(p2 == "tijeras"){
-            return "empate";
+        else if(p2 == "Tijeras"){
+            return "Empate";
         }
     }
 }
 
-console.log(game("piedra","papel"))
+console.log(game("Piedra","Papel"))
  */
 
 //*-------------------------------------------------------------------------------------

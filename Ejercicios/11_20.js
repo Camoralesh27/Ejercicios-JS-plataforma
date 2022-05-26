@@ -3,6 +3,23 @@
 Retorna true. Si los dos parámetros son iguales retorna true.
 Retorna false. Si los dos parámetros son diferentes retorna false.
 Ten en cuenta que deben de ser iguales tanto en valor como tipo de dato. */
+
+/* 
+function isEqual(par1,par2){
+    if(par1 === par2){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+console.log(isEqual(1,"1"));
+ */
+
+//! Los 2 iguales solo compara que sean los mismos valores, pero 3 iguales compara que sea el mismo tipo de dato.
+
+
 //*----------------------------------------------------------------------
 
 
@@ -11,6 +28,8 @@ Ten en cuenta que deben de ser iguales tanto en valor como tipo de dato. */
 /* Crea una función llamada isChristmas() que reciba como parámetro una fecha cualquiera (“dia-mes-año”), y verifica si dicha fecha corresponde a Navidad.
 Retorna true. En caso de que sea Navidad.
 Retorna false. En caso de no sea Navidad. */
+
+
 //*----------------------------------------------------------------------
 
 
