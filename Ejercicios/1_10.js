@@ -234,4 +234,44 @@ La función unicamente recibirá como parámetro "Piedra", "Papel" o "Tijeras", 
 "J2" Si ha ganado el jugador 2.
 "Empate" Si hay un empate. */
 
+/* 
+function game(p1,p2){
+    if(p1 == "piedra"){
+        if(p2 == "piedra"){
+            return "empate";
+        }
+        else if(p2 == "papel"){
+            return "J2";
+        }
+        else if(p2 == "tijeras"){
+            return "J1";    
+        }
+    }
+    else if(p1 == "papel"){
+        if(p2 == "piedra"){
+            return "J1";
+        }
+        else if(p2 == "papel"){
+            return "empate";
+        }
+        else if(p2 == "tijeras"){
+            return "J2";
+        }
+    }
+    else if(p1 == "tijeras"){
+        if(p2 == "piedra"){
+            return "J2";
+        }
+        else if(p2 == "papel"){
+            return "J1";
+        }
+        else if(p2 == "tijeras"){
+            return "empate";
+        }
+    }
+}
+
+console.log(game("piedra","papel"))
+ */
+
 //*-------------------------------------------------------------------------------------
